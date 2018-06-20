@@ -1,0 +1,311 @@
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+section {
+  padding: 50px 0;
+}
+h1,
+h2 {
+  font-size: 29px;
+}
+a:hover {
+  text-decoration: none;
+}
+.slick-dots li button::before {
+  font-size: 20px;
+  color: #848484;
+}
+nav {
+  border-bottom: 4px solid #564b83;
+}
+nav .navbar-brand {
+  max-width: 75%;
+}
+@media (min-width: 991px) {
+  nav .navbar-brand {
+    max-width: 15%;
+  }
+}
+nav .navbar-brand .flower {
+  max-width: 25%;
+  height: auto;
+  margin-right: 15px;
+}
+nav .nav-link {
+  color: #564b83;
+}
+nav .nav-link a {
+  color: #564b83;
+}
+nav .nav-link a:hover {
+  text-decoration: none;
+}
+nav .nav-link .dropdown-menu {
+  min-width: 15em;
+}
+nav .nav-link .dropdown-menu li a {
+  display: block;
+  padding: 2px 7px;
+}
+nav .nav-link .dropdown-menu li a:hover {
+  color: #ffffff;
+  background-color: #564b83;
+}
+nav .nav-item a {
+  color: #564b83 !important;
+}
+header {
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+header .plant {
+  position: absolute;
+  bottom: -15%;
+  right: -25%;
+}
+header .row {
+  height: 100%;
+}
+header .main-slider {
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  header .main-slider .single-slide {
+    padding-left: 100px;
+  }
+  header .main-slider .single-slide h3 {
+    font-size: 54px;
+    font-weight: 300;
+    padding-bottom: 30px;
+  }
+  header .main-slider .single-slide p {
+    max-width: 370px;
+  }
+}
+header .slick-dots {
+  bottom: -140px;
+}
+@media (min-width: 992px) {
+  header .slick-dots {
+    bottom: -170px;
+  }
+}
+.main-header {
+  background-image: url(../images/toa-heftiba-578099-unsplash.jpg);
+  height: 85vh;
+  background-position: center 65%;
+}
+.service-header {
+  background-image: url(../images/succulent.jpg);
+  height: 45vh;
+  color: #ffffff;
+  background-position: center;
+  padding-top: 71px;
+}
+.contact-header {
+  background-image: url(../images/succulent.jpg);
+  height: 45vh;
+  color: #ffffff;
+  background-position: center;
+  padding-top: 71px;
+}
+footer {
+  background-color: #564b83;
+  color: #ffffff;
+  padding: 50px 0;
+}
+footer .footer-title h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+footer .footer-contact {
+  color: #a5a5a5;
+}
+footer .footer-social a {
+  font-size: 50px;
+  color: #ffffff;
+}
+.sec-main-about {
+  position: relative;
+}
+.sec-main-about .sec-desc h2 {
+  color: #564b83;
+  font-size: 32px;
+  padding-bottom: 13px;
+}
+.sec-main-about .sec-desc p {
+  font-size: 20px;
+  color: #85af4b;
+  padding: 13px 0;
+}
+.sec-main-about .sec-desc p:nth-child(3) {
+  font-size: 16px;
+  color: #564b83;
+}
+.sec-main-about .sec-desc p:nth-child(4) {
+  font-size: 16px;
+  font-style: italic;
+  max-width: 320px;
+}
+.sec-main-serv .serv-main-art {
+  background-color: #f0f0f0;
+  padding: 25px 0;
+}
+@media (min-width: 992px) {
+  .sec-main-serv .serv-main-art {
+    padding: 0;
+  }
+}
+.sec-main-serv .serv-main-art .serv-img {
+  background-size: 101% 101%;
+  background-position: center center;
+  min-height: 200px;
+  margin: 25px 0;
+}
+@media (min-width: 992px) {
+  .sec-main-serv .serv-main-art .serv-img {
+    height: 470px;
+    margin: 0;
+  }
+}
+.sec-main-serv .serv-main-art .sec-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .sec-main-serv .serv-main-art .sec-desc {
+    padding: 75px;
+  }
+}
+.sec-main-serv .serv-main-art .sec-desc h2,
+.sec-main-serv .serv-main-art .sec-desc h1 {
+  color: #564b83;
+}
+.sec-main-serv .serv-main-art .sec-desc p {
+  color: #848484;
+  padding: 26px 0;
+}
+@media (max-width: 991px) {
+  .sec-main-serv .serv-main-art .sec-desc .serv-btn {
+    text-align: center;
+  }
+}
+.sec-main-serv .serv-main-art .sec-desc .serv-btn a {
+  border: 1px solid #85af4b;
+  border-radius: 8px;
+  color: #85af4b;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 14px 25px;
+  transition: .2s;
+}
+.sec-main-serv .serv-main-art .sec-desc .serv-btn a span {
+  font-size: 16px;
+  padding-left: 14px;
+}
+.sec-main-serv .serv-main-art .sec-desc .serv-btn a:hover {
+  box-shadow: 5px 5px 10px #848484;
+}
+.sec-main-serv .art-1 .serv-img {
+  background-image: url(../images/1.jpg);
+}
+.sec-main-serv .art-2 .serv-img {
+  background-image: url(../images/2.jpg);
+}
+.sec-main-serv .art-3 .serv-img {
+  background-image: url(../images/1.jpg);
+}
+.sec-main-serv .art-4 .serv-img {
+  background-image: url(../images/2.jpg);
+}
+.sec-main-serv .art-5 .serv-img {
+  background-image: url(../images/1.jpg);
+}
+.sec-main-slider .sec-heading {
+  padding-bottom: 30px;
+}
+.sec-main-slider .sec-heading h2 {
+  color: #85af4b;
+}
+.sec-main-slider .rec-slider blockquote {
+  font-style: italic;
+  color: #848484;
+}
+.sec-main-slider .rec-slider .author {
+  color: #a5a5a5;
+}
+.sec-serv {
+  position: relative;
+}
+.sec-serv .sec-desc h1 {
+  color: #564b83;
+  font-size: 32px;
+  padding-bottom: 13px;
+}
+.sec-serv .sec-desc ul {
+  padding-left: 25px;
+}
+.sec-serv .sec-desc ul li {
+  color: #848484;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.sec-serv .sec-desc ul li:before {
+  color: #85af4b;
+  float: left;
+  margin: 0 0 0 -1em;
+  width: 1em;
+  content: '\2022';
+}
+.sec-serv-2 {
+  background-color: #f0f0f0;
+}
+.sec-contact .contact-address h1 {
+  color: #564b83;
+}
+.sec-contact .contact-address .address a {
+  color: #564b83;
+}
+.sec-contact .map {
+  max-width: 100%;
+  height: auto;
+}
+.sec-contact .map iframe {
+  width: 100%;
+  min-height: 400px;
+  border: 1px solid #564b83;
+}
+@media (max-width: 991px) {
+  .sec-contact .map iframe {
+    min-height: 300px;
+    border: 0;
+  }
+}
+.sec-team .page-title {
+  text-align: center;
+  padding: 35px 0 75px;
+}
+.sec-team .page-title h1 {
+  color: #564b83;
+}
+.sec-team .member {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #85af4b;
+  border-radius: 5px;
+}
+.sec-team .member .member-photo img {
+  border-radius: 5px;
+}
+.sec-team .member .member-name {
+  font-size: 20px;
+}
+.sec-team .member .member-title {
+  color: #848484;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

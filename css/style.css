@@ -3,7 +3,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 section {
-  padding: 50px 0;
+  padding: 5rem 0;
 }
 h1,
 h2 {
@@ -62,8 +62,8 @@ header {
 }
 header .plant {
   position: absolute;
-  bottom: -15%;
-  right: -25%;
+  bottom: -10%;
+  right: 0%;
 }
 header .row {
   height: 100%;
@@ -94,22 +94,32 @@ header .slick-dots {
 }
 .main-header {
   background-image: url(../images/toa-heftiba-578099-unsplash.jpg);
-  height: 85vh;
+  height: 100vh;
   background-position: center 65%;
+}
+.main-header .container-fluid {
+  background: linear-gradient(90deg, rgba(86, 75, 131, 0.4) 20.5625%, rgba(86, 75, 130, 0.4) 20.5625%, rgba(133, 175, 75, 0.4) 80.5625%);
+}
+.smaller-header {
+  height: 45vh;
+  color: #ffffff;
+  background-position: center;
+  padding-top: 71px;
 }
 .service-header {
   background-image: url(../images/succulent.jpg);
-  height: 45vh;
-  color: #ffffff;
-  background-position: center;
-  padding-top: 71px;
 }
 .contact-header {
   background-image: url(../images/succulent.jpg);
-  height: 45vh;
-  color: #ffffff;
-  background-position: center;
-  padding-top: 71px;
+}
+.member-header {
+  background-image: url(../images/succulent.jpg);
+}
+.team-header {
+  background-image: url(../images/succulent.jpg);
+}
+.gallery-header {
+  background-image: url(../images/succulent.jpg);
 }
 footer {
   background-color: #564b83;
@@ -210,19 +220,19 @@ footer .footer-social a {
   box-shadow: 5px 5px 10px #848484;
 }
 .sec-main-serv .art-1 .serv-img {
-  background-image: url(../images/1.jpg);
+  background-image: url(../images/index-offer1.jpg);
 }
 .sec-main-serv .art-2 .serv-img {
-  background-image: url(../images/2.jpg);
+  background-image: url(../images/index-offer2.jpg);
 }
 .sec-main-serv .art-3 .serv-img {
-  background-image: url(../images/1.jpg);
+  background-image: url(../images/index-offer3.jpg);
 }
 .sec-main-serv .art-4 .serv-img {
-  background-image: url(../images/2.jpg);
+  background-image: url(../images/index-offer4.jpg);
 }
 .sec-main-serv .art-5 .serv-img {
-  background-image: url(../images/1.jpg);
+  background-image: url(../images/index-offer5.jpg);
 }
 .sec-main-slider .sec-heading {
   padding-bottom: 30px;
@@ -240,7 +250,7 @@ footer .footer-social a {
 .sec-serv {
   position: relative;
 }
-.sec-serv .sec-desc h1 {
+.sec-serv .sec-desc h4 {
   color: #564b83;
   font-size: 32px;
   padding-bottom: 13px;
@@ -259,6 +269,18 @@ footer .footer-social a {
   margin: 0 0 0 -1em;
   width: 1em;
   content: '\2022';
+}
+.sec-serv .sec-img {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .sec-serv .sec-img {
+    padding-top: 65px;
+  }
+}
+.sec-serv .sec-img img {
+  height: 260px;
+  width: 260px;
 }
 .sec-serv-2 {
   background-color: #f0f0f0;
@@ -291,6 +313,12 @@ footer .footer-social a {
 .sec-team .page-title h1 {
   color: #564b83;
 }
+.sec-team .page-title p {
+  color: #848484;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 15px;
+}
 .sec-team .member {
   display: block;
   padding: 10px;
@@ -302,10 +330,60 @@ footer .footer-social a {
   border-radius: 5px;
 }
 .sec-team .member .member-name {
-  font-size: 20px;
+  color: #564b83;
+  font-size: 26px;
 }
 .sec-team .member .member-title {
   color: #848484;
+}
+.sec-member .member-desc h1 {
+  color: #564b83;
+  font-size: 36px;
+}
+.sec-member .member-desc p {
+  color: #848484;
+}
+.sec-member .member-desc p:nth-child(2) {
+  color: #85af4b;
+  font-size: 23px;
+  font-weight: 300;
+}
+.sec-member .member-img img {
+  border: 1px solid #564b83;
+  border-radius: 5px;
+}
+.sec-member-gallery {
+  background-color: #f0f0f0;
+}
+.sec-member-gallery .page-title {
+  color: #564b83;
+  padding-bottom: 30px;
+}
+.sec-member-gallery .single-gallery {
+  width: 150px;
+  height: 200px;
+  background-color: aqua;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #564b83;
+  border-radius: 5px;
+}
+.sec-member-gallery .single-gallery .smaller-img {
+  max-width: 190%;
+  height: auto;
+  margin-left: -44%;
+}
+.sec-gallery h1 {
+  color: #564b83;
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .sec-gallery .single-gallery {
+    overflow: hidden;
+    width: 250px;
+    max-height: 250px;
+  }
 }
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

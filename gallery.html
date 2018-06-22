@@ -17,6 +17,9 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="vendor/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
     
+    <!-- Other -->
+    <link rel="icon" href="hand.ico" type="image/gif">
+    
     <!-- Lato Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
     
@@ -26,9 +29,13 @@
     <!-- Slick Slider CSS -->
     <link rel="stylesheet" href="vendor/slick/slick.css">
     <link rel="stylesheet" href="vendor/slick/slick-theme.css">
-
+    
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="vendor/lightbox2-master/dist/css/lightbox.min.css">
+   
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    
 
   </head>
 
@@ -44,15 +51,15 @@
        <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="about.html"><span class="icon-home"></span></a>
+              <a class="nav-link js-scroll-trigger" href="index.html"><span class="icon-home"></span></a>
             </li>
             <li class="nav-link dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Usługi
+                <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Usługi
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu sub-menu">
-                  <li><a href="service.html">jeden</a></li>
-                  <li><a href="service.html">dwa</a></li>
-                  <li><a href="service.html">trzy</a></li>
+                  <li><a href="service.html">Terapie i masaże</a></li>
+                  <li><a href="service3.html">Refleksologia i schorzenia oczu</a></li>
+                  <li><a href="service2.html">Analizator składu masy ciała i ziołolecznictwo</a></li>
                 </ul>
             </li>
             <li class="nav-item">
@@ -70,38 +77,57 @@
     </nav>
 
     <!-- Header -->
-    <header class="contact-header masthead d-flex">
+    <header class="member-header smaller-header d-flex">
       <div class="container">
           <div class="row justify-content-center align-items-center">
               <div class="col-12">
                     <div class="single-slide">
-                        <h3>Kontakt</h3>
+                        <h3>Zespół</h3>
                     </div>
                 </div>
           </div>
       </div>
     </header>
 
-    <!-- Contact -->
-    <section class="sec-contact">
+    <!-- Gallery -->
+    <section class="sec-gallery">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="contact-address">
-                       <h1>Gabinet terapii manualnej BOSCO</h1>
-                        <div class="address">
-                            <p class="adr">
-                            <span class="street-address">Gdańska 59/6 (oficyna)</span><br>
-                            <span class="postal-code">Bydgoszcz</span><br>
-                            <span class="tel">t: +48 664 77 00 10</span><br>
-                            <a class="email" href="mailto:tomek.jurkiewicz@interia.pl">tomek.jurkiewicz@interia.pl</a>
-                            </p>
-                        </div>
+                <div class="col-12 text-center">
+                    <div class="page-title">
+                        <h1>Galeria zdjęć</h1>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.887993658295!2d18.00554771583032!3d53.130156179934346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470313c0b8668263%3A0xa03579418c419079!2sGda%C5%84ska+59%2C+85-001+Bydgoszcz!5e0!3m2!1spl!2spl!4v1529481704153"  frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-6 col-lg-3 pb-4">
+                    <div class="single-gallery">
+                        <a href="images/gallery/resizeist.doist.com.jpg" data-lightbox="roadtrip" data-title="Certyfikat"><img class="img-fluid" src="images/gallery/resizeist.doist.com.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3 pb-4">
+                    <div class="single-gallery">
+                        <a href="images/gallery/resizeist.doist.com2.jpg" data-lightbox="roadtrip" data-title="Certyfikat"><img class="img-fluid" src="images/gallery/resizeist.doist.com2.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3 pb-4">
+                    <div class="single-gallery">
+                        <a href="images/gallery/resizeist.doist.com3.jpg" data-lightbox="roadtrip" data-title="Certyfikat"><img class="img-fluid" src="images/gallery/resizeist.doist.com3.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3 pb-4">
+                    <div class="single-gallery">
+                        <a href="images/terapia-dorosli.jpg" data-lightbox="roadtrip" data-title="Certyfikat"><img class="img-fluid" src="images/terapia-dorosli.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3 pb-4">
+                    <div class="single-gallery">
+                        <a href="images/terapia-dzieci.jpg" data-lightbox="roadtrip" data-title="Certyfikat"><img class="img-fluid" src="images/terapia-dzieci.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3 pb-4">
+                    <div class="single-gallery">
+                        <a href="images/terapia-pomoc.jpg" data-lightbox="roadtrip" data-title="Certyfikat"><img class="img-fluid" src="images/terapia-pomoc.jpg"></a>
                     </div>
                 </div>
             </div>
@@ -155,6 +181,9 @@
     
     <!-- Slick Slider JS -->
     <script src="vendor/slick/slick.js"></script>
+    
+    <!-- Lightbox JS -->
+    <script src="vendor/lightbox2-master/dist/js/lightbox.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.js"></script>

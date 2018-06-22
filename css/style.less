@@ -14,7 +14,7 @@ body {
 }
 
 section {
-    padding: 50px 0;
+    padding: 5rem 0;
 }
 
 h1,
@@ -81,8 +81,8 @@ header {
     overflow: hidden;
     .plant {
         position: absolute;
-        bottom: -15%;
-        right: -25%;
+        bottom: -10%;
+        right: 0%;
     }
     .row {
         height: 100%;
@@ -113,24 +113,38 @@ header {
 
 .main-header {
     background-image: url(../images/toa-heftiba-578099-unsplash.jpg);
-    height: 85vh;
+    height: 100vh;
     background-position: center 65%;
+    .container-fluid {
+        background: linear-gradient(90deg, rgba(86, 75, 131, 0.4) 20.5625%,rgba(86, 75, 130, 0.4) 20.5625%,rgba(133, 175, 75, 0.4) 80.5625%);
+    }
+}
+
+.smaller-header {
+    height: 45vh;
+    color: @white;
+    background-position: center;
+    padding-top: 71px;
 }
 
 .service-header {
     background-image: url(../images/succulent.jpg);
-    height: 45vh;
-    color: @white;
-    background-position: center;
-    padding-top: 71px;
 }
 
 .contact-header {
     background-image: url(../images/succulent.jpg);
-    height: 45vh;
-    color: @white;
-    background-position: center;
-    padding-top: 71px;
+}
+
+.member-header {
+    background-image: url(../images/succulent.jpg);
+}
+
+.team-header {
+    background-image: url(../images/succulent.jpg);
+}
+
+.gallery-header {
+    background-image: url(../images/succulent.jpg);
 }
 
 // FOOTER
@@ -242,27 +256,27 @@ footer {
 
     .art-1 {
         .serv-img {
-            background-image: url(../images/1.jpg);
+            background-image: url(../images/index-offer1.jpg);
         }
     }
     .art-2 {
         .serv-img {
-            background-image: url(../images/2.jpg);
+            background-image: url(../images/index-offer2.jpg);
         }
     }
     .art-3 {
         .serv-img {
-            background-image: url(../images/1.jpg);
+            background-image: url(../images/index-offer3.jpg);
         }
     }
     .art-4 {
         .serv-img {
-            background-image: url(../images/2.jpg);
+            background-image: url(../images/index-offer4.jpg);
         }
     }
     .art-5 {
         .serv-img {
-            background-image: url(../images/1.jpg);
+            background-image: url(../images/index-offer5.jpg);
         }
     }
 }
@@ -292,7 +306,7 @@ footer {
 .sec-serv {
     position: relative;
     .sec-desc {
-        h1 {
+        h4 {
             color: @main-purple;
             font-size: 32px;
             padding-bottom: 13px;
@@ -311,6 +325,16 @@ footer {
                     content: '\2022';
                 }
             }
+        }
+    }
+    .sec-img {
+        text-align: center;
+        @media (min-width: 992px) {
+            padding-top: 65px;
+        }
+        img {
+            height: 260px;
+            width: 260px;
         }
     }
 }
@@ -358,6 +382,12 @@ footer {
         h1 {
             color: @main-purple;
         }
+        p {
+            color: @gray;
+            font-size: 20px;
+            font-weight: 300;
+            padding-top: 15px;
+        }
     }
     .member {
         display: block;
@@ -371,10 +401,76 @@ footer {
             }
         }
         .member-name {
-            font-size: 20px;
+            color: @main-purple;
+            font-size: 26px;
         }
         .member-title {
             color: @gray;
         }
+    }
+}
+
+// TEAM MEMBER PAGE
+//-- MEMBER
+.sec-member {
+    .member-desc {
+        h1 {
+            color: @main-purple;
+            font-size: 36px;
+        }
+        p {
+            color: @gray;
+            &:nth-child(2) {
+                color: @main-green;
+                font-size: 23px;
+                font-weight: 300;
+            }
+        }
+    }
+    .member-img {
+        img {
+            border: 1px solid @main-purple;
+            border-radius: 5px;
+        }
+    }
+}
+
+//-- CERTIFICATES
+.sec-member-gallery {
+    background-color: @light-bg;
+    .page-title {
+        color: @main-purple;
+        padding-bottom: 30px;
+    }
+    .single-gallery {
+        width: 150px;
+        height: 200px;
+        background-color: aqua;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid @main-purple;
+        border-radius: 5px;
+        .smaller-img {
+            max-width: 190%;
+            height: auto;
+            margin-left: -44%;
+        }
+    }
+}
+
+// GALLERY
+.sec-gallery {
+    h1 {
+        color: @main-purple;
+        padding-bottom: 30px;
+    }
+    .single-gallery {
+        @media (min-width: 992px) {
+            overflow: hidden;
+            width: 250px;
+            max-height: 250px;
+            
+        } 
     }
 }
